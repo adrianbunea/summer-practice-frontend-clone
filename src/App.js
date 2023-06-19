@@ -1,6 +1,11 @@
+import { Layout } from "./components/layout";
+import { All } from "./pages/all";
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <Layout>
+      <All/>      
+    </Layout>
   );
 }
 
