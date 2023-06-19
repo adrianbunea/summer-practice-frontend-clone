@@ -1,5 +1,14 @@
+import { Logo } from "../logo"
+import { Navigation } from "../navigation"
+import { User } from "../user"
 import "./index.css"
 
 export const Header = () => {
-    return <h1>Header</h1>
+    return (
+        <header className="header">
+            <Logo/>
+            <Navigation/>
+            <User/>
+        </header>
+    )
 }

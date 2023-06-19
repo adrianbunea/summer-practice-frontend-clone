@@ -1,0 +1,12 @@
+.navigation {
+    flex-grow: 1;
+    padding: 0 44px;
+}
+
+.link {
+    text-decoration: none;
+    color: #4480F1;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
