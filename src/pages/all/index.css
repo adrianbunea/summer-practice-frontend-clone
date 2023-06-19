@@ -1,0 +1,9 @@
+.page {
+    padding: 128px 235px;
+}
+
+.freaks-list {
+    border: 1px solid #6C717F;
+    border-radius: 20px;
+    height: 100%;
+}
