@@ -3,21 +3,21 @@ import "./index.css"
 
 export const All = () => {
     const freaks = [
-        { name: 'Adi' },
-        { name: 'Sandra' },
-        { name: 'Calin' },
-        { name: 'Georgiana' },
-        { name: 'Anda' },
-        { name: 'Adi' },
-        { name: 'Sandra' },
-        { name: 'Calin' },
-        { name: 'Georgiana' },
-        { name: 'Anda' },
-        { name: 'Adi' },
-        { name: 'Sandra' },
-        { name: 'Calin' },
-        { name: 'Georgiana' },
-        { name: 'Anda' }
+        { name: 'Adi', avatar: "https://i.pravatar.cc" },
+        { name: 'Sandra', avatar: "https://i.pravatar.cc" },
+        { name: 'Calin', avatar: "https://i.pravatar.cc" },
+        { name: 'Georgiana', avatar: "https://i.pravatar.cc" },
+        { name: 'Anda', avatar: "https://i.pravatar.cc" },
+        { name: 'Adi', avatar: "https://i.pravatar.cc" },
+        { name: 'Sandra', avatar: "https://i.pravatar.cc" },
+        { name: 'Calin', avatar: "https://i.pravatar.cc" },
+        { name: 'Georgiana', avatar: "https://i.pravatar.cc" },
+        { name: 'Anda', avatar: "https://i.pravatar.cc" },
+        { name: 'Adi', avatar: "https://i.pravatar.cc" },
+        { name: 'Sandra', avatar: "https://i.pravatar.cc" },
+        { name: 'Calin', avatar: "https://i.pravatar.cc" },
+        { name: 'Georgiana', avatar: "https://i.pravatar.cc" },
+        { name: 'Anda', avatar: "https://i.pravatar.cc" }
     ]
 
     return (
