@@ -2,8 +2,21 @@
     padding: 128px 235px;
 }
 
-.freaks-list {
+.freak-list {
     border: 1px solid #6C717F;
     border-radius: 20px;
     height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 1rem 2rem;
+}
+
+.freak-list__cell {
+    border-bottom: 0.5px solid #6C717F;
+    padding: 1rem;
+}
+
+.freak-list__cell:nth-last-child(-n+3) {
+    border-bottom: none;
 }

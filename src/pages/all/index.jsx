@@ -22,8 +22,12 @@ export const All = () => {
 
     return (
         <div className="page">
-            <div className="freaks-list">
-                {freaks.map(freak => <Freak freak={freak} />)}
+            <div className="freak-list">
+                {freaks.map(freak => (
+                    <div className="freak-list__cell">
+                        <Freak freak={freak} />
+                    </div>
+                ))}
             </div>
         </div>
     ) 

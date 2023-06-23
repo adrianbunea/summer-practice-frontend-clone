@@ -1,2 +1,20 @@
 .freak {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.freak__avatar {
+    height: 100%;
+    object-fit: contain;
+    border: 2px solid #4480F1;
+    border-radius: 50%;
+}
+
+.freak__name {
+    color: #6C717F;
+    font-size: 1rem;
+    font-weight: 600;
 }
