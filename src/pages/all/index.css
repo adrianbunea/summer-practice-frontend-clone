@@ -1,11 +1,11 @@
 .page {
-    padding: 128px 235px;
+    min-height: 100%;
+    padding: 128px 10%;
 }
 
 .freak-list {
     border: 1px solid #6C717F;
     border-radius: 20px;
-    height: 100%;
 
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -17,6 +17,44 @@
     padding: 1rem;
 }
 
-.freak-list__cell:nth-last-child(-n+3) {
-    border-bottom: none;
+@media (min-width: 1351px) {
+    .freak-list__cell:nth-last-child(1 of :nth-child(3n+1)) {
+        border-bottom: none;
+    }
+
+    .freak-list__cell:nth-last-child(1 of :nth-child(3n+1)) ~ .freak-list__cell {
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 1350px) and (min-width: 851px) {
+    .freak-list {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .freak-list__cell:nth-last-child(1 of :nth-child(2n+1)) {
+        border-bottom: none;
+    }
+
+    .freak-list__cell:nth-last-child(1 of :nth-child(2n+1)) ~ .freak-list__cell {
+        border-bottom: none;
+    }
+
+    .page {
+        padding: 64px 10%;
+    }
+}
+
+@media (max-width: 850px) {
+    .freak-list {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .freak-list__cell:last-child {
+        border-bottom: none;
+    }
+
+    .page {
+        padding: 32px 10%;
+    }
 }

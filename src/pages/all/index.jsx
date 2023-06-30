@@ -15,20 +15,18 @@ export const All = () => {
         { name: 'Anda', avatar: "https://i.pravatar.cc" },
         { name: 'Adi', avatar: "https://i.pravatar.cc" },
         { name: 'Sandra', avatar: "https://i.pravatar.cc" },
-        { name: 'Calin', avatar: "https://i.pravatar.cc" },
-        { name: 'Georgiana', avatar: "https://i.pravatar.cc" },
-        { name: 'Anda', avatar: "https://i.pravatar.cc" }
+        { name: 'Calin', avatar: "https://i.pravatar.cc" }
     ]
 
     return (
         <div className="page">
             <div className="freak-list">
-                {freaks.map(freak => (
-                    <div className="freak-list__cell">
+                {freaks.map((freak, index) => (
+                    <div className="freak-list__cell" key={index}>
                         <Freak freak={freak} />
                     </div>
                 ))}
             </div>
         </div>
-    ) 
+    )
 }
