@@ -1,5 +1,5 @@
 import "./index.css";
-import { Avatar } from "./avatar";
+import { Avatar } from "../../../../components/avatar";
 
 export const Freak = ({ freak }) => (
     <div className="freak">

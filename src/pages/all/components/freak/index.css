@@ -6,17 +6,6 @@
     gap: 2rem;
 }
 
-.freak__avatar {
-    height: 100%;
-    object-fit: contain;
-    border: 2px solid #4480F1;
-    border-radius: 50%;
-}
-
-.freak__avatar--self {
-    border: none;
-}
-
 .freak__name {
     color: #6C717F;
     font-size: 1rem;
