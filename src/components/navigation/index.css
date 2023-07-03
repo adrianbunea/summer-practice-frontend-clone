@@ -3,7 +3,13 @@
     padding: 0 44px;
 }
 
-.link {
+.navigation__list {
+    display: flex;
+    column-gap: 1rem;
+    padding: 0;
+}
+
+.navigation__link {
     text-decoration: none;
     color: #4480F1;
     font-weight: 600;

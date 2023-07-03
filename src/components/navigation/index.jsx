@@ -2,6 +2,8 @@ import "./index.css"
 
 export const Navigation = () => (
     <nav className="navigation">
-        <a href="/all" className="link">Freaks</a>
+        <ul className="navigation__list">
+            <a href="/all" className="navigation__link">Freaks</a>
+        </ul>
     </nav>
 )
