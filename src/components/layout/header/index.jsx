@@ -1,6 +1,6 @@
-import { Logo } from "../logo"
-import { Navigation } from "../navigation"
-import { User } from "../user"
+import { Logo } from "./logo"
+import { Navigation } from "./navigation"
+import { UserIcon } from "./user-icon"
 import "./index.css"
 
 export const Header = () => {
@@ -8,7 +8,7 @@ export const Header = () => {
         <header className="header">
             <Logo/>
             <Navigation/>
-            <User/>
+            <UserIcon/>
         </header>
     )
 }

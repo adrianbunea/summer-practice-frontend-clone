@@ -1,4 +1,4 @@
-import { Header } from "../header";
+import { Header } from "./header";
 import "./index.css";
 
 export const Layout = ({ children }) => {
