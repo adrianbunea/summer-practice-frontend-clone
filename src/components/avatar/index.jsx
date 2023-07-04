@@ -4,6 +4,6 @@ export const Avatar = ({ src, self = false }) => (
     <img
         src={src}
         alt={'Avatar'}
-        className={`avatar ${self && 'avatar--self'}`}
+        className={`avatar ${self && '--self'}`}
     />
 )

@@ -5,6 +5,7 @@
     border-radius: 50%;
 }
 
-.avatar--self {
+.avatar.--self {
     border: none;
+    max-height: 60px;
 }

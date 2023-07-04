@@ -5,6 +5,24 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.header__navigation-toggle {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .header {
+        padding: 16px 32px;
+    }
+    .header__navigation-toggle {
+        display: initial;
+    }
+
+    .navigation__list {
+        display: none;
+    }
 }
