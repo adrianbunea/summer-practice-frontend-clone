@@ -1,5 +1,5 @@
 import "./index.css"
-import {UserIcon} from "../user-icon";
+import {Avatar} from "../../../avatar";
 
 export const MobileNavigation = ({ open, onClickOutside }) => {
     const openClassName = open ? '--open' : ''
@@ -12,7 +12,7 @@ export const MobileNavigation = ({ open, onClickOutside }) => {
                     <a href="/contact" className="mobile-navigation__link">Contact</a>
 
                     <a href="/me" className="mobile-navigation__link user-icon">
-                        <UserIcon/>
+                        <Avatar src={"https://i.pravatar.cc/300"} self={true}/>
                     </a>
                 </ul>
             </nav>
