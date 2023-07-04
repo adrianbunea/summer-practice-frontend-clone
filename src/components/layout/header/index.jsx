@@ -15,7 +15,7 @@ export const Header = () => {
             <Logo/>
             <NavigationToggle onClick={toggleNavigation}/>
             <Navigation/>
-            <MobileNavigation open={navigationOpen} />
+            <MobileNavigation open={navigationOpen} onClickOutside={() => setNavigationOpen(false)} />
         </header>
     )
 }
