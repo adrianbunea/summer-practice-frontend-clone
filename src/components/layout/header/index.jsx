@@ -1,9 +1,10 @@
-import {useState} from "react";
+import { useState } from "react";
 
 import "./index.css"
 import { Logo } from "./logo"
 import { Navigation } from "./navigation"
-import {MobileNavigation} from "./mobile-navigation";
+import { MobileNavigation } from "./mobile-navigation";
+import { NavigationToggle } from "./navigation-toggle";
 
 export const Header = () => {
     const [navigationOpen, setNavigationOpen] = useState(false);
@@ -12,7 +13,7 @@ export const Header = () => {
     return (
         <header className="header">
             <Logo/>
-            <button className="header__navigation-toggle" onClick={toggleNavigation}>Click Me</button>
+            <NavigationToggle onClick={toggleNavigation}/>
             <Navigation/>
             <MobileNavigation open={navigationOpen} />
         </header>
