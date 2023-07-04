@@ -6,4 +6,6 @@
     --icon-color: #FCFCFD;
 
     --link-color: var(--foreground-color);
+    --logo-primary-color: var(--foreground-color);
+    --logo-secondary-color: var(--foreground-color);
 }

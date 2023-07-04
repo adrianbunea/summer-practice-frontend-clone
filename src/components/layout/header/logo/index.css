@@ -1,5 +1,12 @@
 .logo {
     height: 100%;
-    object-fit: contain;
     cursor: pointer;
+}
+
+.logo__face {
+    fill: var(--logo-primary-color);
+}
+
+.logo__text {
+    fill: var(--logo-secondary-color);
 }
