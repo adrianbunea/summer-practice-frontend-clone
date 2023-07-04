@@ -14,7 +14,7 @@
 
 .mobile-navigation {
     width: 100%;
-    background-color: white;
+    background-color: var(--background-color);
 }
 
 .mobile-navigation__list > .user-icon {
@@ -26,7 +26,7 @@
 .mobile-navigation-container.--open {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid #6C717F;
+    border-top: 1px solid var(--foreground-color);
 }
 
 .mobile-navigation__list {
@@ -44,12 +44,12 @@
 
 .mobile-navigation__link {
     text-decoration: none;
-    color: #4480F1;
+    color: var(--link-color);
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
 
     width: 100%;
-    border-bottom: 1px solid #6C717F;
+    border-bottom: 1px solid var(--foreground-color);
     padding: 1rem;
 }

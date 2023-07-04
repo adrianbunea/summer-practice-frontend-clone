@@ -4,7 +4,7 @@
 }
 
 .freak-list {
-    border: 1px solid #6C717F;
+    border: 1px solid var(--foreground-color);
     border-radius: 20px;
 
     display: grid;
@@ -13,7 +13,7 @@
 }
 
 .freak-list__cell {
-    border-bottom: 0.5px solid #6C717F;
+    border-bottom: 0.5px solid var(--foreground-color);
     padding: 1rem;
 }
 

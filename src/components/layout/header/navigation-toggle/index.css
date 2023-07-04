@@ -5,7 +5,7 @@
     padding: 1rem;
     border: none;
     background: none;
-    color: #0F0F10;
+    color: var(--icon-color);
 }
 
 @media (max-width: 850px) {

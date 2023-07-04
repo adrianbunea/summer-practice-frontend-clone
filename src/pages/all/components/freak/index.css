@@ -7,7 +7,7 @@
 }
 
 .freak__name {
-    color: #6C717F;
+    color: var(--foreground-color);
     font-size: 1rem;
     font-weight: 600;
 }

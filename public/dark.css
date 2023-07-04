@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #4480F1;
+    --background-color: #000000;
+    --background-color-variant: #0F0F10;
+    --foreground-color: #FCFCFD;
+    --icon-color: #FCFCFD;
+
+    --link-color: var(--foreground-color);
+}

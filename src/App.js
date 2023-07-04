@@ -1,12 +1,13 @@
 import { Layout } from "./components/layout";
 import { All } from "./pages/all";
+import { ThemeStylesheetSwitch } from "./themeContext";
 
-function App() {
-  return (
+
+const App = () => (
     <Layout>
-      <All/>      
+        <ThemeStylesheetSwitch/>
+        <All/>
     </Layout>
-  );
-}
+)
 
 export default App;
