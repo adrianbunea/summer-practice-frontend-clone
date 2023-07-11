@@ -28,8 +28,8 @@ export const All = () => {
     return (
         <div className="page">
             <div className="freak-list">
-                {!loading ?
-                    freaks.map((freak, index) => (
+                {!loading
+                    ? freaks.map((freak, index) => (
                         <div className="freak-list__cell" key={index}>
                             <Freak freak={freak} />
                         </div>
