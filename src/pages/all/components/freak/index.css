@@ -1,13 +1,13 @@
 .freak {
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
+    /*height: 100px;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*gap: 2rem;*/
 }
 
 .freak__name {
-    color: var(--foreground-color);
-    font-size: 1rem;
-    font-weight: 600;
+    /*color: var(--foreground-color);*/
+    /*font-size: 1rem;*/
+    /*font-weight: 600;*/
 }
