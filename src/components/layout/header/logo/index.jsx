@@ -1,5 +1,5 @@
 import "./index.css"
-import {useThemeContext} from "../../../../themeContext";
+import {useThemeContext} from "../../../../theme-context";
 
 export const Logo = () => {
     const {toggleTheme} = useThemeContext()
