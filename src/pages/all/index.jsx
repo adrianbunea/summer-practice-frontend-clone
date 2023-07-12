@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { getFreaks } from './get-freaks';
+import { Freak } from './components/freak';
 import "./index.css"
 
 export const All = () => {
@@ -21,13 +22,15 @@ export const All = () => {
         getFreaks(onSuccess, onFailure)
     }, []);
 
+    console.error(error);
+
     return (
         <div className="page">
             <div className="freak-list">
                 {!loading ?
                     freaks.map((freak, index) => (
                         <div className="freak-list__cell" key={index}>
-                            <p>{freak.attributes.first_name}</p>
+                            <Freak freak={freak} />
                         </div>
                     ))
                 : 'Loading...' }
