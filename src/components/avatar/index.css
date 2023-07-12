@@ -11,13 +11,13 @@
 }
 
 @media (max-width: 850px) {
-    /*.avatar {*/
-    /*    height: 56px;*/
-    /*    width: 56px;*/
-    /*}*/
+    .avatar {
+        height: 56px;
+        width: 56px;
+    }
 
-    /*.avatar.--self {*/
-    /*    max-height: 43px;*/
-    /*    max-width: 43px;*/
-    /*}*/
+    .avatar.--self {
+        max-height: 43px;
+        max-width: 43px;
+    }
 }

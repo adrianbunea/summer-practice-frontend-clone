@@ -28,7 +28,7 @@
 }
 
 @media (max-width: 850px) {
-    /*.navigation {*/
-    /*    display: none;*/
-    /*}*/
+    .navigation {
+        display: none;
+    }
 }

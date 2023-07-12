@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 850px) {
-    /*.header {*/
-    /*    padding: .5rem 2rem;*/
-    /*}*/
+    .header {
+        padding: .5rem 2rem;
+    }
 }
