@@ -5,7 +5,7 @@
     --foreground-color: #6C717F;
     /*--icon-color: #0F0F10;*/
 
-    /*--link-color: var(--primary-color);*/
+    --link-color: var(--primary-color);
     --logo-primary-color: var(--primary-color);
     --logo-secondary-color: var(--foreground-color);
 }
