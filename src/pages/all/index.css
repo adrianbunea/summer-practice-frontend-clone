@@ -1,31 +1,31 @@
 .page {
-    /*min-height: 100%;*/
-    /*padding: 128px 10%;*/
+    min-height: 100%;
+    padding: 128px 10%;
 }
 
 .freak-list {
-    /*border: 1px solid var(--foreground-color);*/
-    /*border-radius: 20px;*/
+    border: 1px solid var(--foreground-color);
+    border-radius: 20px;
 
-    /*display: grid;*/
-    /*grid-template-columns: repeat(3, auto);*/
-    /*padding: 1rem 2rem;*/
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 1rem 2rem;
 }
 
 .freak-list__cell {
-    /*border-bottom: 0.5px solid var(--foreground-color);*/
-    /*padding: 1rem;*/
+    border-bottom: 0.5px solid var(--foreground-color);
+    padding: 1rem;
 }
 
-@media (min-width: 1351px) {
-    /*.freak-list__cell:nth-last-child(1 of :nth-child(3n+1)) {*/
-    /*    border-bottom: none;*/
-    /*}*/
 
-    /*.freak-list__cell:nth-last-child(1 of :nth-child(3n+1)) ~ .freak-list__cell {*/
-    /*    border-bottom: none;*/
-    /*}*/
+.freak-list__cell:nth-last-child(1 of :nth-child(3n+1)) {
+    border-bottom: none;
 }
+
+.freak-list__cell:nth-last-child(1 of :nth-child(3n+1)) ~ .freak-list__cell {
+    border-bottom: none;
+}
+
 
 @media (max-width: 1350px) and (min-width: 851px) {
     /*.freak-list {*/
