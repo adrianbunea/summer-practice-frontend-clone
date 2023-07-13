@@ -1,0 +1,31 @@
+.freak-details{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.freak-details__avatar{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: var(--background-color);
+    z-index: 9999;
+    border-radius: 50%;
+}
+
+.freak-details__name{
+    color: var(--primary-color);
+}
+.freak-details__email{
+    color: var(--foreground-color);
+    text-decoration: none;
+}
+.freak-details__age{
+    color: var(--foreground-color);
+}

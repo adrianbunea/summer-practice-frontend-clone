@@ -23,6 +23,6 @@ export const ThemeStylesheetSwitch = () => {
 
     return (
         <link rel="stylesheet" type="text/css"
-              href={process.env.PUBLIC_URL + theme === 'light' ? 'light.css' : 'dark.css'}/>
+              href={process.env.PUBLIC_URL + theme === 'light' ? '/light.css' : '/dark.css'}/>
     );
 }

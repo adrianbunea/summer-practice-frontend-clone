@@ -1,12 +1,12 @@
 .logo {
-    /*height: 100%;*/
-    /*cursor: pointer;*/
+    height: 100%;
+    cursor: pointer;
 }
 
 .logo__face {
-    /*fill: var(--logo-primary-color);*/
+    fill: var(--logo-primary-color);
 }
 
 .logo__text {
-    /*fill: var(--logo-secondary-color);*/
+    fill: var(--logo-secondary-color);
 }
