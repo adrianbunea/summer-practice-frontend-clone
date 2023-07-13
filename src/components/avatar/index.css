@@ -5,6 +5,11 @@
     border-radius: 50%;
 }
 
+.avatar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 25px -7px var(--logo-primary-color);
+}
+
 .avatar.--self {
     border: none;
     max-height: 60px;

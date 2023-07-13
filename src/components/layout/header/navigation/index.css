@@ -20,6 +20,10 @@
     font-size: 18px;
     line-height: 24px;
 }
+.navigation__link:hover {
+    transform: scale(1.1);
+    filter: brightness(150%);
+}
 
 .--user-icon {
     height: 100%;
