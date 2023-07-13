@@ -1,0 +1,20 @@
+.freak-details{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.freak-details__avatar{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freak-detail__name{
+    color: var(--primary-color);
+}
