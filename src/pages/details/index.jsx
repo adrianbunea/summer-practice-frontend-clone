@@ -25,7 +25,7 @@ export const Details = () => {
 
     useEffect(() => {
         getFreak(onSuccess, onFailure, freakId)
-    }, [freakId, onSuccess, onFailure]);
+    }, [freakId]);
 
     console.error(error);
 
