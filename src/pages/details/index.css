@@ -15,6 +15,13 @@
     justify-content: center;
 }
 
-.freak-detail__name{
+.freak-details__name{
     color: var(--primary-color);
+}
+.freak-details__email{
+    color: var(--foreground-color);
+    text-decoration: none;
+}
+.freak-details__age{
+    color: var(--foreground-color);
 }

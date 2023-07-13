@@ -30,9 +30,13 @@ export const Details = () => {
         ? (
             <div className={'freak-details'}>
                 <div className={'freak-details__avatar'}><Avatar src={freak.attributes.avatar_url}/></div>
-                <h3 className={'freak-detail__name'}>{freak.attributes.first_name}</h3>
-                <p>{freak.attributes.email}</p>
-                <p>{freak.attributes.age}</p>
+                <h3 className={'freak-details__name'}>{freak.attributes.first_name}</h3>
+                <address>
+                    <a href={`mailto:${freak.attributes.email}`} className={'freak-details__email'}>
+                        {freak.attributes.email}
+                    </a>
+                </address>
+                <p className={'freak-details__age'}>{freak.attributes.age}</p>
             </div>
         )
         : 'Loading...')
