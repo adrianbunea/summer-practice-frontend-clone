@@ -20,7 +20,7 @@ export const All = () => {
 
     useEffect(() => {
         getFreaks(onSuccess, onFailure)
-    }, []);
+    }, [getFreaks, onSuccess, onFailure]);
 
     console.error(error);
 
